@@ -2,8 +2,8 @@ apiVersion: route.openshift.io/v1
 kind: Route
 metadata:
   labels:
-    app: guestbook-ui
-  name: guestbook-ui
+    app: kustomize-guestbook
+  name: kustomize-guestbook
 spec:
   port:
     targetPort: 80-tcp
