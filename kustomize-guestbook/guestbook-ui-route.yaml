@@ -5,7 +5,7 @@ metadata:
     #app: guestbook-ui
   name: guestbook-ui
 spec:
-  host: kustomize-guestbook-ui.apps.<ingress_domain>
+  host: kustomize-guestbook-ui.apps.<Ingress_Domain>
   port:
       targetPort: 80
   to:
