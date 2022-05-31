@@ -5,8 +5,9 @@ metadata:
     #app: guestbook-ui
   name: guestbook-ui
 spec:
+  host: kustomize-guestbook-ui.apps.ocpsno.ocplab.net
   port:
-    targetPort: 80
+      targetPort: 80
   to:
     kind: Service
     name: kustomize-guestbook-ui
