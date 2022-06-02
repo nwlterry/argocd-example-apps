@@ -4,6 +4,7 @@ metadata:
   #labels:
     #app: guestbook-ui
   name: guestbook-ui
+  namespace: default
 spec:
   #host: kustomize-guestbook-ui.apps.ocpsno.ocplab.net
   port:
